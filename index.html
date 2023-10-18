@@ -1,0 +1,76 @@
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 2px solid #a9c7a9;
+        }
+
+        .head {
+            text-align: center;
+            background-color: #238b8b;
+            color: white;
+            padding: 10px;
+        }
+
+        .signup-text {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #emailid {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        #subscribe-btn {
+            background-color: #3b2253;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #subscribe-btn:hover {
+            background-color: #592f75;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="container" action="/subscribe"  method="POST">
+        <h2 class="head">SIGN UP PROCESS</h2>
+        <p class="signup-text">SIGN UP FOR OUR DAILY INSIDER</p>
+
+        
+
+            <input type="email" name="email" id="emailid" placeholder="Enter your email">
+            <button id="subscribe-btn">Subscribe</button>
+        </form>
+
+    
+</body>
+
+</html> 
+
